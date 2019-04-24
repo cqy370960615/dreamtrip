@@ -1,0 +1,21 @@
+{
+    "name": "cqy/dreamtrip",
+    "description": "dreamtrip",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenquanyong",
+            "email": "chenquanyong@dgg.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">=7.0"
+    },
+    "autoload":{
+    	"psr-4":{
+			"Cqy\\Names\\":"src/cqy/names"
+		}
+    }
+}
